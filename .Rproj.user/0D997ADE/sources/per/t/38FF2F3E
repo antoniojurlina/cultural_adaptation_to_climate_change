@@ -1,0 +1,26 @@
+{
+    "id": "38FF2F3E",
+    "path": "~/Projects/cultural_adaptation_to_climate_change/scripts/data_import_final.R",
+    "project_path": "scripts/data_import_final.R",
+    "type": "r_source",
+    "hash": "3053661569",
+    "contents": "",
+    "dirty": false,
+    "created": 1622587518878.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,47",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1622587533,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1622587533440,
+    "read_only": false,
+    "read_only_alternatives": []
+}
