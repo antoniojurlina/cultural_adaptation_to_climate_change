@@ -1,0 +1,61 @@
+
+Preliminary Theme2 Data Science Work
+Antonio Jurlina
+Jan - May 2021
+
+
+# Project Goal
+Theme 2 of the Barracuda grant is focused on 'cultural adaptation to climate change,' including a major effort to measure and estimate cultural adaptation among farmers across the United States. To accomplish this, we create a national dataset which can be used to detect the key patterns of cultural adaptation. Cultural adaptation to environmental change may occur when (a) an environmental change, causes (b) a behavioral change which proves to be (c) beneficial for those who adopt it, and consequently (d) spreads among the population. In addition we will want to collect (e) socio-economic data which may contribute to likelihood of adaptation. Cultural adaptations might be small (such as a change in technical method) or large (such as a major change in subsistence, economic model or lifeway). The goal of this semester-long project is to begin the effort of data integration and testing.
+
+
+# Specific tasks
+This semester-long effort includes a set of specific tasks. Each task should be iterative, and improve our collective ability to create reproducible research. 
+(1) research and document the relevant data sources
+ - find data sources which can supply data to help address each of facet (a-e) of cultural adaptation, above.
+ - document the spatial, temporal and sociological extent, resolution and focus of each source.
+ - document the access details for each data source.
+ * Compile a simple report on data sources by facet (a-e).
+
+(2) assemble a preliminary dataset
+ - develop a dataset/database using a small regional test case (e.g. New England or Maine, 1980-2010)
+ - collect data form the data sources identified in (1) for the test case.
+ - identify challenges with integrating these datasets (e.g. spatiotemporal grain, extent, units)
+ - complete a preliminary merger of data addressing each facet (a-e) in the test case.
+
+(3) draft a data integration pipeline or plan for future more in-depth work.
+ - document your efforts
+ - describe the data sources in detail, and means of accessing each
+ - describe the data integration effort, it's limitations, successes, and lessons learned
+ - describe weaknesses in reproducibility, automation, access, storage 
+ - make a set of suggestions for ongoing work
+
+
+
+# Initial data source leads
+(a) environmental change --
+ - ?
+ - ?
+
+
+(b) behavioral change  --
+ - USDA ERS - ARMS Farm Financial and Crop Production Practices, https://www.ers.usda.gov/data-products/arms-farm-financial-and-crop-production-practices.aspx
+ - CropScape (USDA NASS) - https://nassgeodata.gmu.edu/CropScape/
+
+
+(c) beneficial for adopters --
+ - USDA NASS, farm economics
+ - United states census
+ - ?
+
+
+(d) population spread --
+ - same data sources as (b), but over time, e.g. via spatial autocorrelation
+
+
+(e) socio-economic predictors --
+ - SEDAC/CEISIN – rasterized social data - https://sedac.ciesin.columbia.edu/
+ - Tight-loose, Gelfand: https://www.pnas.org/content/111/22/7990/tab-figures-data
+ - Psychological distance, Muthukrishna: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3259613
+ - United states census (mean wealth, income, population size/density, cultural/linguistic/ethinc diversity)
+
+
