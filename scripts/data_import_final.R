@@ -241,8 +241,8 @@ rm(output1, output2, universities,
 #------- IMPORTING CENSUS DATA -------- 
 # census_2012_link <- "https://www.nass.usda.gov/Publications/AgCensus/2012/Online_Resources/Census_Data_Query_Tool/2012_cdqt_data.txt.gz"
 # census_2017_link <- "https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Census_Data_Query_Tool/2017_cdqt_data.txt.gz"
-census_2012 <- read.delim("nass_census_2012.txt", header = TRUE)
-census_2017 <- read.delim("nass_census_2017.txt", header = TRUE)
+census_2012 <- read.delim("2012_cdqt_data.txt", header = TRUE)
+census_2017 <- read.delim("2017_cdqt_data.txt", header = TRUE)
 land_practices <- "nass_census_2012_practices.xlsx" 
 
 #------- COUNTY FARM DATA -------- 
